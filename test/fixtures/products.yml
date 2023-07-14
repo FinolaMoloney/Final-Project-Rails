@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyString
+  price: MyString
+  stock: false
+  gluten_free: false
+  diary_free: false
+  months_6_to_12: false
+  years_1_to_2: false
+  years_2_to_4: false
+
+two:
+  title: MyString
+  description: MyString
+  price: MyString
+  stock: false
+  gluten_free: false
+  diary_free: false
+  months_6_to_12: false
+  years_1_to_2: false
+  years_2_to_4: false
