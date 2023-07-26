@@ -1,15 +1,15 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  description: MyString
-  price: MyString
+finolas_order:
+  title: Pear Puree
+  description: Puree'd pear, perfect for the little ones!
+  price: 5.95
   quantity: 1
-  email_address: MyString
+  email_address: test@gmail.com
 
-two:
-  title: MyString
-  description: MyString
-  price: MyString
-  quantity: 1
-  email_address: MyString
+janes_order:
+  title: Porridge, Lasagne
+  description: porridge oats, Mince meat in tomatoe sauce with pasta sheets and white sauce.
+  price: 14.90
+  quantity: 2
+  email_address: jane@gmail.com

@@ -1,23 +1,23 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  description: MyString
-  price: MyString
-  stock: false
-  gluten_free: false
-  diary_free: false
+porridge:
+  title: Porridge
+  description: Porridge Oats
+  price: 5.95
+  stock: true
+  gluten_free: true
+  diary_free: true
   months_6_to_12: false
   years_1_to_2: false
-  years_2_to_4: false
+  years_2_to_4: true
 
-two:
-  title: MyString
-  description: MyString
-  price: MyString
-  stock: false
+lasagne:
+  title: lasagne
+  description: Mince meat in tomatoe sauce with pasta sheets and white sauce.
+  price: 8.95
+  stock: true
   gluten_free: false
-  diary_free: false
+  diary_free: true
   months_6_to_12: false
-  years_1_to_2: false
-  years_2_to_4: false
+  years_1_to_2: true
+  years_2_to_4: true

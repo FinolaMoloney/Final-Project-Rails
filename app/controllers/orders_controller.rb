@@ -25,15 +25,17 @@ class OrdersController < ApplicationController
   def create
     @order = Order.new(order_params)
     puts "Received order params: #{order_params.inspect}"
-    
+  
     respond_to do |format|
       if @order.save
         # Save the order first to assign an ID
         format.html { redirect_to order_url(@order), notice: "Order was successfully created." }
         format.json { render :show, status: :created, location: @order }
   
-        # Create order items for the new order
-        create_order_items_for_order(@order)
+        # Check if order items are present and not empty before creating them
+        if params[:order_items].present? && params[:order_items].any?
+          create_order_items_for_order(@order)
+        end
       else
         format.html { render :new, status: :unprocessable_entity }
         format.json { render json: @order.errors, status: :unprocessable_entity }

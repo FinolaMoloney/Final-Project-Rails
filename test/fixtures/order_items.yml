@@ -1,0 +1,13 @@
+order_item_one:
+  title: Porridge
+  description: Porridge oats
+  price: 5.95
+  quantity: 1
+  order: janes_order
+
+order_item_two:
+  title: lasagne
+  description: Mince meat in tomatoe sauce with pasta sheets and white sauce.
+  price: 8.95
+  quantity: 1
+  order: janes_order
