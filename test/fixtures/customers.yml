@@ -8,10 +8,10 @@ jane:
   email_address: jane@hotmail.com
   password: 345
 
-two:
-  first_name: MyString
-  last_name: MyString
-  address: MyString
-  phone_number: 1
-  email_address: MyString
-  password: MyString
+kate:
+  first_name: Kate
+  last_name: Murphy
+  address: Greenfields
+  phone_number: 22234567231
+  email_address: kate@outlook.com
+  password: K1ate
