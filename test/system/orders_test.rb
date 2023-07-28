@@ -2,7 +2,7 @@ require "application_system_test_case"
 
 class OrdersTest < ApplicationSystemTestCase
   setup do
-    @order = orders(:one)
+    @order = orders(:janes_order)
   end
 
   test "visiting the index" do
