@@ -10,12 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_07_25_191401) do
+ActiveRecord::Schema[7.0].define(version: 2023_07_28_082346) do
   create_table "customers", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
     t.string "address"
-    t.integer "phone_number"
+    t.string "phone_number"
     t.string "email_address"
     t.string "password"
     t.datetime "created_at", null: false
@@ -41,6 +41,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_25_191401) do
     t.string "email_address"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "first_name"
+    t.string "last_name"
+    t.string "address"
+    t.string "phone_number"
   end
 
   create_table "products", force: :cascade do |t|
