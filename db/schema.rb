@@ -39,12 +39,12 @@ ActiveRecord::Schema[7.0].define(version: 2023_07_28_082346) do
     t.string "price"
     t.integer "quantity"
     t.string "email_address"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.string "first_name"
     t.string "last_name"
     t.string "address"
     t.string "phone_number"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "products", force: :cascade do |t|
